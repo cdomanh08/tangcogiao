@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gửi bạn N giấu tên</title>
+  <title>Tặng đồ đáng yêu</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap&subset=vietnamese" rel="stylesheet">
   <style>
     body {
@@ -118,17 +118,19 @@
   <button onclick="showMessage()">Nhân ngày 20/10</button>
   
   <div id="message">
-    Gửi bạn Phùng Thảo Nguyên xinh lùn đáng yêu. 
-    Nhân ngày 20/10, chúc em luôn xinh đẹp, yêu đời, học giỏi.
-    Mong em không tiết kiệm nụ cười, không lười khoe nhan sắc 
-    và sẽ luôn thành công với những gì em chọn.
+    Gửi bạn Nguyễn Thị Hà Linh dấu yêu,
+    Hơi tiếc vì chưa đúng kế hoạch lắm nên đành tặng cậu món quà làm vội này.
+    Nhân ngày 20/10, chúc cậu hay ăn chóng nhớn, luôn vui tươi yêu đời nhé
+    Mong cậu không tiết kiệm nụ cười, không lười khoe nhan sắc, 
+    và sẽ luôn được trọn vẹn với những gì cậu chọn!
+    aueygnadod,uacueyot
   </div>
 
-  <button id="continueBtn" style="display:none; margin-top:15px;" onclick="showMore()">Nếu em không ghét anh ...</button>
+  <button id="continueBtn" style="display:none; margin-top:15px;" onclick="showMore()">Nói không thì hơi thiếu ...</button>
 
   <div id="more"></div>
 
-  <button id="flowerBtn" style="display:none; margin-top:20px;" onclick="goToFlower()">Tặng em đóa hoa nè 🌹</button>
+  <button id="flowerBtn" style="display:none; margin-top:20px;" onclick="goToFlower()">Nên tặng cậu đóa hoa nè 🌹</button>
 
   <script>
     function fadeInElement(el) {
@@ -147,9 +149,9 @@
       fadeInElement(more);
       document.querySelector("#continueBtn").style.display = "none";
       more.textContent =
-        "anh mong được thân với em hơn,\n" +
-        "hiểu về em nhiều hơn,\n" +
-        "cho phép anh làm phiền em nhé?";
+        "tớ mong được gặp cậu nhiều hơn,\n" +
+        "hiểu về cậu nhiều hơn,\n" +
+        "hy vọng chúng mình sẽ đồng hành cùng nhau trong thời gian tới nhé!";
 
       setTimeout(() => fadeInElement(document.querySelector("#flowerBtn")), 2000);
     }
